@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Hoja de Vida Digital</title>
+  </head>
+  <body>
+    <header>
+      <svg width="400" height="100" >
+        <g class="layer">
+         <title>Layer 1</title>
+         <ellipse cx="136.000001" cy="64.500001" fill="#000000" id="svg_5" rx="121.500001" ry="35.000001" stroke="#db2525" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+         <path d="m83.5,21.5l151,0l0,85l-151,0l0,-85z" fill="#000000" id="svg_6" stroke="#f9f4f4" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2"/>
+         <path d="m47.361008,52.927505c2.759995,0 4.998932,2.241226 4.998932,5.001083c0,2.759827 -2.238937,4.998901 -4.998932,4.998901c-2.759842,0 -4.998932,2.241241 -4.998932,5.001053c0,2.759872 2.23909,4.998962 4.998932,4.998962c5.51976,0 10.000015,-4.48027 10.000015,-10.000015c0,-5.51973 -4.480255,-9.999985 -10.000015,-9.999985zm0,3.438293c-0.862839,0 -1.562943,0.699707 -1.562943,1.56279c0,0.862991 0.700104,1.562912 1.562943,1.562912c0.8629,0 1.562851,-0.699921 1.562851,-1.562912c0,-0.863083 -0.699951,-1.56279 -1.562851,-1.56279zm0,10c0.862473,0 1.562851,0.700317 1.562851,1.562744c0,0.862503 -0.700378,1.562866 -1.562851,1.562866c-0.862549,0 -1.562943,-0.700363 -1.562943,-1.562866c0,-0.862427 0.700394,-1.562744 1.562943,-1.562744zm9.775589,-3.432037c0,5.515869 -4.471313,9.98732 -9.986908,9.98732c-5.515747,0 -9.987183,-4.471451 -9.987183,-9.98732c0,-5.515579 4.471436,-9.987015 9.987183,-9.987015c5.515594,0 9.986908,4.471436 9.986908,9.987015z" fill="#f7f2f2" id="svg_1" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0"/>
+         <text fill="#c11d1d" font-family="Fantasy" font-size="22" font-style="italic" font-weight="bold" id="svg_8" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="159.5" xml:space="preserve" y="68.5">David Pantoja</text>
+        </g>
+      </svg>
+      </header>
+  <hr style="color: #0404B4;" size="5">
+            <center>
+            <h1>Curriculum Vitae</h1>
+            <h2>David Ivan Pantoja Flores</h2>
+            <h3>5 de Septiembre de 1993</h3>
+            <h3>Ciudad de México</h3>
+            </center>
+      <hr width="50%">
+            <center>
+              <p>
+              <h3>Enlaces de Menú</h3>
+              </p>
+                  <button type="button" name="button"><a href="index.html" style="text-decoration:none; color: black" >Inicio</a></button><br><br>
+                  <button type="button" name="button"><a href="educacion.html" style="text-decoration:none; color: black">Educacion</a></button><br><br>
+                  <button type="button" name="button"><a href="experiencia.html" style="text-decoration:none; color: black">Experiencia</a></button>
+            </center>
+      <hr width="50%">
+          <center>
+            <p>
+              <h2>Educación</h2>
+            </p>
+            <table border="1">
+              <thead>
+                <tr >
+                  <th>Año</th>
+                  <th>Institución</th>
+                  <th>Lugar</th>
+                  <th>Termino</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                <td>2011</td>
+                <td>UVM</td>
+                <td>Ciudad de Mexico</td>
+                <td>2016</td>
+                </tr>
+                <tr>
+                <td>2018</td>
+                <td>NextUniversity</td>
+                <td>Online</td>
+                <td>en curso</td>
+                </tr>
+              </tbody>
+              <tfoot>
+
+              </tfoot>
+            </table>
+          </center>
+  <hr width="50%">
+          <center>
+            <p>
+              <h2>Estudios</h2>
+            </p>
+            </center>
+            <center>
+            <form class="" action="educacion.html" method="post">
+              <p><label>Año</label>
+                <select >
+                  <option value="2011">2011</option>
+                  <option value="2012">2012</option>
+                  <option value="2013">2013</option>
+                  <option value="2014">2014</option>
+                  <option value="2015">2015</option>
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                </select>
+              </p>
+              <p><label>Institucion</label>
+                <input type="text" name="" value="" placeholder="Universidad..." required>
+              </p>
+              <p><label>Lugar</label>
+                  <input type="text" name="" value="" placeholder="Dirección" required>
+              </p>
+              <p>
+                <input type="submit" name="" value="Enviar">
+              </p>
+
+            </form>
+            </center>
+
+  </body>
+<hr style="color: #0404B4;" size="5">
+  <footer>
+    <p>
+      <u>Correo Electronico</u> :
+      <b>
+        <a href="mailto:david.pantf@hotmail.com" style="text-decoration:none; color: black">david.pantf@hotmail.com</a>
+      </b>
+    </p>
+
+    <p>
+      <u>Telefono</u> :
+      <b>
+        <a href="tel:+5255333333" style="text-decoration:none; color:black">Click para llamar</a>
+      </b>
+    </p>
+
+    <p>
+      <u>Redes Sociales</u> :
+      <b>
+        <a href="https://www.instagram.com/davydpanto/" style="text-decoration:none; color: #8d2bd9"><img src="multimedia/imagenes/instagram.png" width="20"></a>
+        <a href="https://www.facebook.com/david.pantoja.5" style="text-decoration:none; color: #0362cc"><img src="multimedia/imagenes/facebook.jpg" width="20"></a>
+      </b>
+    </p>
+  </footer>
+</html>
